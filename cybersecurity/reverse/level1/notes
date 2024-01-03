@@ -1,0 +1,3 @@
+* In this level1 we've got a simple program after running `file level1` we can see that's its a 32 bit binary.
+* trying strings , revels the presence of strcmp, decided to run the program under gdb, and breaking on strcmp instruction.
+* after the program asks for a key, it gets compared with `__stack_check`, step out from gdb and trying this key shows that its the valid key since the program prints `good job`, in case of trying a random (wrong) key , it prints `Nope`.
