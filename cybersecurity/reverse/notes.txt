@@ -1,0 +1,10 @@
+to import angr successfuly with no errors, its recommended to create a virtual env
+* install virtualenv: python -m pip install --user virtualenv
+* create the envirement: virtualenv env_name
+* activate the envirement: source env_name/bin/activate
+
+next is to install angr with pip:
+* pip install angr
+
+* ready to go Yay!
+
