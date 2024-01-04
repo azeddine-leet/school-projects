@@ -6,5 +6,5 @@ to import angr successfuly with no errors, its recommended to create a virtual e
 next is to install angr with pip:
 * pip install angr
 
-* ready to go Yay!
+* ready to go !
 
